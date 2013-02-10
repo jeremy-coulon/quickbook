@@ -59,7 +59,7 @@ find_package_handle_standard_args(BoostBook DEFAULT_MSG
 
 # Generate boostbook.catalog.xml
 if(BOOSTBOOK_FOUND AND DOCBOOK_FOUND)
-  find_file(BOOSTBOOK_CATALOG_TEMPLATE boostbook_catalog.xml.in ${CMAKE_MODULE_PATH})
+  find_file(BOOSTBOOK_CATALOG_TEMPLATE boostbook_catalog.xml ${CMAKE_MODULE_PATH})
   set(BOOSTBOOK_CATALOG "${CMAKE_BINARY_DIR}/boostbook_catalog.xml" CACHE FILEPATH "")
   configure_file(${BOOSTBOOK_CATALOG_TEMPLATE} "${BOOSTBOOK_CATALOG}")
 endif()
