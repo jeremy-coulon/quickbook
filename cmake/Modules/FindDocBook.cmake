@@ -17,17 +17,12 @@
 #
 
 #=============================================================================
-# Copyright 2013 Jeremy Coulon
+# Copyright (C) 2013 Jeremy Coulon <jeremy.coulon@free.fr>
 #
-# Distributed under the OSI-approved BSD License (the "License");
-# see accompanying file Copyright.txt for details.
-#
-# This software is distributed WITHOUT ANY WARRANTY; without even the
-# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the License for more information.
+# Distributed under the Boost Software License, Version 1.0.
+# See accompanying file LICENSE_1_0.txt or copy at
+#   http://www.boost.org/LICENSE_1_0.txt
 #=============================================================================
-# (To distribute this file outside of CMake, substitute the full
-#  License text for the above reference.)
 
 if(NOT DocBook_FIND_VERSION)
   message(FATAL_ERROR "No DocBook version provided. You should call find_package(DocBook 4.2).")
